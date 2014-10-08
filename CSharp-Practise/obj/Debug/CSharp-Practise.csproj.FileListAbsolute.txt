@@ -1,0 +1,6 @@
+D:\learning\DotNet practise\CSharp-Practise\CSharp-Practise\bin\Debug\CSharp-Practise.exe.config
+D:\learning\DotNet practise\CSharp-Practise\CSharp-Practise\obj\Debug\CSharp-Practise.csprojResolveAssemblyReference.cache
+D:\learning\DotNet practise\CSharp-Practise\CSharp-Practise\bin\Debug\CSharp-Practise.exe
+D:\learning\DotNet practise\CSharp-Practise\CSharp-Practise\bin\Debug\CSharp-Practise.pdb
+D:\learning\DotNet practise\CSharp-Practise\CSharp-Practise\obj\Debug\CSharp-Practise.exe
+D:\learning\DotNet practise\CSharp-Practise\CSharp-Practise\obj\Debug\CSharp-Practise.pdb

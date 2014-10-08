@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{FE1EBC40-A8BB-4FDB-AA74-7476A854411A}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CSharp_Practise</RootNamespace>
+    <AssemblyName>CSharp-Practise</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Arbit\ContraAndCovar.cs" />
+    <Compile Include="Arbit\CountObjects.cs" />
+    <Compile Include="Arbit\Enum.cs" />
+    <Compile Include="Arbit\Equality.cs" />
+    <Compile Include="Arbit\Inheritance.cs" />
+    <Compile Include="Arbit\LearningProperties.cs" />
+    <Compile Include="Arbit\MethodOverriding.cs" />
+    <Compile Include="Arbit\MissingAPNumber.cs" />
+    <Compile Include="Arbit\OverflowException.cs" />
+    <Compile Include="Arbit\Parameter_ByReference.cs" />
+    <Compile Include="Arbit\PractiseYield.cs" />
+    <Compile Include="Arbit\primeNumbers.cs" />
+    <Compile Include="Arbit\RotateMatrix.cs" />
+    <Compile Include="BitwiseOperators\ShiftOperator.cs" />
+    <Compile Include="BitwiseOperators\XOR.cs" />
+    <Compile Include="DataStructures\MergeLinkList.cs" />
+    <Compile Include="DataStructures\MultiDimensionalArrays.cs" />
+    <Compile Include="DataStructures\Passing_Lists.cs" />
+    <Compile Include="DataStructures\PractiseLinkedList.cs" />
+    <Compile Include="DesignPatterns\DisposePattern.cs" />
+    <Compile Include="DesignPatterns\Disposing.cs" />
+    <Compile Include="DesignPatterns\Singelton.cs" />
+    <Compile Include="DesignPatterns\Singelton_ThreadSafe.cs" />
+    <Compile Include="DesignPatterns\Singelton_ThreadSafe_Locks.cs" />
+    <Compile Include="Entities\League.cs" />
+    <Compile Include="Entities\msdn\Student.cs" />
+    <Compile Include="Entities\Player.cs" />
+    <Compile Include="Entities\Team.cs" />
+    <Compile Include="Events\delegates.cs" />
+    <Compile Include="Events\Events_withNOParams.cs" />
+    <Compile Include="Events\Events_with_CustomDelegate.cs" />
+    <Compile Include="Events\Practise.cs" />
+    <Compile Include="Generics\Constraints_class.cs" />
+    <Compile Include="Generics\Constraints_interface.cs" />
+    <Compile Include="Generics\Constraints_new.cs" />
+    <Compile Include="Generics\GenericClasses.cs" />
+    <Compile Include="Generics\GenericList.cs" />
+    <Compile Include="Generics\GenericMethdos.cs" />
+    <Compile Include="Generics\G_PerformanceBenefits.cs" />
+    <Compile Include="Generics\MyGenericArray.cs" />
+    <Compile Include="Interfaces\CompareObjects.cs" />
+    <Compile Include="Interfaces\EquateObjects.cs" />
+    <Compile Include="Interfaces\Interface_Inheritance.cs" />
+    <Compile Include="Interfaces\Person.cs" />
+    <Compile Include="Iterators\IteratorUsingYield.cs" />
+    <Compile Include="Iterators\SampleIterator.cs" />
+    <Compile Include="Iterators\WierdIterators.cs" />
+    <Compile Include="LINQ\Basics.cs" />
+    <Compile Include="LINQ\DeferredExecution.cs" />
+    <Compile Include="LINQ\Group.cs" />
+    <Compile Include="LINQ\Join.cs" />
+    <Compile Include="LINQ\MapReduce\ExtensionLinq.cs" />
+    <Compile Include="LINQ\MapReduce\WordFequency.cs" />
+    <Compile Include="LINQ\RandomAndRepeat.cs" />
+    <Compile Include="LINQ\SelectMany.cs" />
+    <Compile Include="LINQ\ToSQL\Learning_IQueryable.cs" />
+    <Compile Include="Parallel_Async\Tasks\Basics.cs" />
+    <Compile Include="Parallel_Async\Tasks\Parallel_For.cs" />
+    <Compile Include="Parallel_Async\Tasks\PLINQ.cs" />
+    <Compile Include="Parallel_Async\Tasks\PractiseTasks.cs" />
+    <Compile Include="Parallel_Async\Tasks\taskContinueWith.cs" />
+    <Compile Include="Parallel_Async\Threads\BackgroundThreads.cs" />
+    <Compile Include="Parallel_Async\Threads\Thread_NotToBeUsed.cs" />
+    <Compile Include="Parallel_Async\UsingThreadPools\Basics.cs" />
+    <Compile Include="Parallel_Async\UsingThreadPools\ThreadCancellationDemo.cs" />
+    <Compile Include="Parallel_Async\UsingThreadPools\ThreadPool_Examples.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
